@@ -17,7 +17,7 @@ https://hub.docker.com/
 
 **Commands:**
 
-  docker images pull <image-name>
+  docker image pull <image-name>
 
   docker image pull nginx
 
