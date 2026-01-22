@@ -40,9 +40,14 @@ docker image rm
 docker image prune -a
 
 docker image tag <image-name> <image-tag>
+
 docker image nginx rajivshakya687/nginx
+
 docker login
+
 username rajivshakya687
+
 passwrd  *************
+
 docker image push rajivshakya687/nginx
 
