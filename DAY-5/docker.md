@@ -33,3 +33,7 @@ docker image tag <image> <image-tag>  # tag should be unique
 
 docker push image <image-name>     ## befor push the image your termnal should be login with docker hub credentials.
 
+docker image rm
+
+docker image prune -a
+
