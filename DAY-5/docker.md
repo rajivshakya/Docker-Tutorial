@@ -11,4 +11,8 @@ Docker Hub is a cloud-based container image registry where developers and DevOps
 **🔹 Key Features of Docker Hub**
 1️⃣ Public & Private Repositories
    1. Public repo: Anyone can pull images
-   2. Private repo: Only authorized users can access
+   2. Private repo: Only authorized users can access.
+commands:
+docker images pull <image-name>
+or
+docker pull <image-name>
