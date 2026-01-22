@@ -3,7 +3,7 @@
 Docker Hub is a cloud-based container image registry where developers and DevOps engineers can store, share, download, and manage Docker images.
 
 **🔹 Why Docker Hub is Important**
-  Central place to find ready-made Docker images
-  Helps in faster application deployment
-  Used in CI/CD pipelines
-  Reduces time for image creation from scratch
+  1. Central place to find ready-made Docker images
+  2. Helps in faster application deployment
+  3. Used in CI/CD pipelines
+  4. Reduces time for image creation from scratch
