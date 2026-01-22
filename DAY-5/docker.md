@@ -17,37 +17,37 @@ https://hub.docker.com/
 
 **Commands:**
 
-docker images pull <image-name>
+  docker images pull <image-name>
 
-docker image pull nginx
+  docker image pull nginx
 
-or
+  or
 
-docker pull <image-name>
+  docker pull <image-name>
 
-docker pull nginx
+  docker pull nginx
 
-docker image ls
+  docker image ls
 
-docker images
+  docker images
 
-docker image tag <image> <image-tag>  # tag should be unique
+  docker image tag <image> <image-tag>  # tag should be unique
 
-docker push image <image-name>     ## befor push the image your termnal should be login with docker hub credentials.
+  docker push image <image-name>     ## befor push the image your termnal should be login with docker hub credentials.
 
-docker image rm
+  docker image rm
 
-docker image prune -a
+  docker image prune -a
 
-docker image tag <image-name> <image-tag>
+  docker image tag <image-name> <image-tag>
 
-docker image nginx rajivshakya687/nginx
+  docker image nginx rajivshakya687/nginx
 
-docker login
+  docker login
 
-username rajivshakya687
+  username rajivshakya687
 
-passwrd  *************
+  passwrd  *************
 
-docker image push rajivshakya687/nginx
+  docker image push rajivshakya687/nginx
 
