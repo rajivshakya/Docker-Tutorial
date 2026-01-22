@@ -7,3 +7,8 @@ Docker Hub is a cloud-based container image registry where developers and DevOps
   2. Helps in faster application deployment
   3. Used in CI/CD pipelines
   4. Reduces time for image creation from scratch
+
+**🔹 Key Features of Docker Hub**
+1️⃣ Public & Private Repositories
+   1. Public repo: Anyone can pull images
+   2. Private repo: Only authorized users can access
