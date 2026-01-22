@@ -31,5 +31,5 @@ docker images
 
 docker image tag <image> <image-tag>  # tag should be unique
 
-docker push image <image-name>
+docker push image <image-name>     ## befor push the image your termnal should be login with docker hub credentials.
 
