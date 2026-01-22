@@ -15,5 +15,11 @@ Docker Hub is a cloud-based container image registry where developers and DevOps
 
 **commands:**
 docker images pull <image-name>
+docker image pull nginx
 or
 docker pull <image-name>
+docker pull nginx
+docker image ls
+docker images
+docker image tag <image> <image-tag>  # tag should be unique
+docker push image <image-name>
