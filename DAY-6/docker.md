@@ -15,18 +15,28 @@ o	docker inspect
 9.	Key takeaways & best practices
 ________________________________________
 
-**🐳** What is Port Mapping in Docker?****
+**🐳** **What is Port Mapping in Docker?******
 
 Port mapping allows us to access a service running inside a container from the host machine or browser.
+
 **Syntax:**
+
 -p <host_port>:<container_port>
+
 **Example:**
+
 -p 3000:80
+
 •	3000 → Port on host machine
+
 •	80 → Port inside container (Apache runs on port 80)
+
 So when we open:
+
 http://<host-ip>:3000
+
 Docker forwards traffic to:
+
 container:80
 ________________________________________
 **🧪 Step 1: Run First Web Server Container**
