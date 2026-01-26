@@ -8,7 +8,7 @@ DAY-06
 6.	docker port  
 7.	docker log
 
-1.	docker attach
+**1.	docker attach**
   docker container attach <container-id/name>
 **Important behaviour**
 •	Attaching connects to the main process, not a new shell
@@ -47,8 +47,7 @@ Use cases
 •	Running one-off commands
 •	Inspecting files, env vars, processes
 
-
-****2.	docker rename ****
+**2.	docker rename **
 -	for rename the container. 
 **3.	docker export**
 -	docker export e4a1f23f88b1 >web.tar
