@@ -51,10 +51,13 @@ ________________________________________
 **6️⃣ How Docker Volume Works (Conceptual View)**
 
 **Host Machine**
+
 ┌──────────────────────────┐
-│ /var/lib/docker/volumes │
+│ /var/lib/docker/volumes
+│
 │   └── volume_data       │
 └──────────▲──────────────┘
+
            │
       Mounted into
            │
