@@ -53,14 +53,21 @@ ________________________________________
 **Host Machine**
 
 ┌──────────────────────────┐
+
 │ /var/lib/docker/volumes
+
 │
+
 │   └── volume_data       │
+
 └──────────▲──────────────┘
 
            │
+           
       Mounted into
+      
            │
+           
 Container Path (/data)
 
 ✔ Data stays even if container is deleted
