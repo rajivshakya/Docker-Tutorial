@@ -182,4 +182,9 @@ Nginx	Logs
 
 Prometheus	Data directory
 ________________________________________
+Additinal command 
+
+# to remove all container in one go
+
+docker container rm -f $(docker container ls -aq)
 
