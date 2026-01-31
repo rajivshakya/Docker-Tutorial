@@ -55,21 +55,33 @@ docker container restart <container-id or container name>
 docker container rm <container-id or container name>
 
 Note : we cannot remove running container so first we have stop the container and then only we can remove it. If you want to remove running container then you have to remove forcefully.
+
 docker container rm <container-id or container name> -f 
 
 docker container run -itd  --name my-container1 ubuntu
+
 docker container run -it – name my-container2 ubuntu /bin/bash
+
    apt get update -y
+   
    apt get install apache2 -y
-    cd /var/www/html/
+   
+     cd /var/www/html/
+     
       echo “Welcome to to my first application on Docker Container” > index.html
-    service apache2 start
-     free -h
+     
+     service apache2 start
+      
+      free -h
+
 docker container inspect <container-id or container name>
-take id address of container
+ 
+ take id address of container
+
 curl http://container ip
 
 docker container top <container id>
+
 docker container stats <container id>
 
 
