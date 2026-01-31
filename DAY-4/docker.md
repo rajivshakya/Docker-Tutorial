@@ -1,10 +1,8 @@
 **DAY-4**
 **Agenda:**
-
  	Deploying a container with ubuntu image, hosting a application on container and access that from docker host.
-
   Deploying a container with nginx image, hosting a application on container and access that from docker host.
- 	
+
   Docker Inspect command
  	
   Docker search command
